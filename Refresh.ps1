@@ -41,6 +41,10 @@
                   
     )
 
+$assemblyPath = "C:\Modules\User\Microsoft.AnalysisServices.AdomdClient\Microsoft.AnalysisServices.AdomdClient.dll"
+try {Add-Type -Path $assemblyPath}
+catch  { $_.Exception.LoaderExceptions }
+
 $Connection = New-Object Microsoft.AnalysisServices.AdomdClient.AdomdConnection
 $Connection.ConnectionString = "Datasource="+ $PowerBIEndpoint +";User ID="+ $ServicePrincipal +";Password="+ $ServicePrincipalSecret  
 
