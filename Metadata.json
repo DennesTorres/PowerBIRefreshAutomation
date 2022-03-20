@@ -1,0 +1,20 @@
+{
+    "Author": "Dennes Torres",
+    "ContentSize": 8968,
+    "ContentUrl": "https://raw.githubusercontent.com/DennesTorres/PowerBIRefreshAutomation/master/Refresh.ps1",
+    "DownloadCount": 13844,
+    "Id": "PowerBI-Refresh-Automation-73a2a8ea",
+    "IsFederated": true,
+    "IsWorkflow": true,
+    "Popularity": 10,
+    "RaterCount": 10,
+    "Rating": 4.5,
+    "ReleaseDate": "2022-03-20T00:00:00",
+    "RunbookKind": 6,
+    "RunbookKindString": "PowerShell Workflow",
+    "Summary": "This runbook executes a XMLA script, allowing Power BI refresh automation or other possibilities",
+    "Title": "Power BI Refresh Automation",
+    "UpdatedDate": "2020-05-27T00:00:00",
+    "Url": "https://github.com/DennesTorres/PowerBIRefreshAutomation",
+    "UserTags": "Administration, Power BI Administration"
+}
