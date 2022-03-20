@@ -1,4 +1,4 @@
-﻿<#
+﻿<# 
 .SYNOPSIS 
     Indexes tables in a database if they have a high fragmentation
 
