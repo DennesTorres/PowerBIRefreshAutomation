@@ -1,8 +1,8 @@
-﻿Indexes tables in an Azure database if they have a high fragmentation
+Power BI Refresh Automation
 =====================================================================
 
             
 
-This runbook indexes all of the tables in a given database if the fragmentation is above a certain percentage. 
+This runbook executes XMLA scripts in Power BI, allowing the automation of refresh on an object/partition level or other tasks you can execute using XMLA
 
-This runbook is based on an existing runbook from Azure Automation team, but fixes a bug related to tables contained in schemas other than the default schema
+
